@@ -1,13 +1,19 @@
 package nhnPreCoding;
 
 import java.util.Scanner;
+// 입력
+// 2
+// B2(RG)
+// 3(R2(GB))
 
+// 출력
+// BRGRG
+// RGBGBRGBGBRGBGB
 public class changeChar {
     static String[] result;
     static boolean flag;
 
     private static void solution(int numOfOrder, String[] orderArr) {
-        // TODO: 이곳에 코드를 작성하세요. 추가로 필요한 함수와 전역변수를 선언해서 사용하셔도 됩니다.
         result = new String[numOfOrder];
         for (int i = 0; i < numOfOrder; i++) {
             String[] array_word;
